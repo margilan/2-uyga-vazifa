@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all{
+    margin-left: 500px ;
+    margin-top: 120px;
+    border: 0.5px solid white;
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    background-image: url(/img/backround.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img{
+    padding-left: 95px;
+    margin-top: 10px;  
+}
+.img a{
+    border-radius:50%;
+}
+.name {
+margin-left: 110px;
+cursor: pointer;
+}
+.name h1{
+    font-weight: 300;
+    transition: all 0.5s;
+    color: white;
+}
+.name h1:hover{
+    font-weight: 500;
+}
+
+.desc{
+    margin-left: 20px;
+    margin-top: 24px;
+}
+.desc h1{
+    font-size: 14px;
+    cursor: pointer;
+    color:rgb(148, 148, 148);
+    transition: all 1.0s;
+    font-weight: 200;
+}
+.desc h1:hover{
+    color:white;
+}
+.desc button{
+    width: 150px;
+    height: 40px;
+    border:none;
+    border-radius:6px;
+    cursor: pointer;
+    transition: all 1s;
+    color:white;
+    background-color:rgb(31, 30, 30);
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+.desc button:hover{
+    background-image:url(/img/gradient.png)
+}
