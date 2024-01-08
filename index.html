@@ -7,21 +7,39 @@
     <title>Card</title>
 </head>
 <body>
-    <div class="all">
-        <div class="img">
-            <a id="img" href="#"><img src="./img/Без названия.jpg" alt="bu yerda rasm bor"></a>
-        </div>
+    <form>
         <div class="name">
-            <h1 id="name">John Cavani</h1>
+            <h3>Iltimos ismingizni kiriting ...</h3>
+            <input id="name" placeholder="Ismingizni kiriting..." type="text">
+            <span class="error__name">Iltimos matn kiriting</span>
         </div>
-        <div class="desc">
-            <h1 id="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias assumenda, voluptatibus laudantium temporibus quas explicabo nulla sequi itaque eaque pariatur?  </h1>
-        <button id="btn">Storage</button>
+        <div class="deck">
+            <h3>Iltimos izoh kiriting</h3>
+            <textarea placeholder="Izoh kiriting..." name="" id="" cols="" rows="10"></textarea>
+            <span class="error__dec">Iltimos izoh kiriting bo'lmasa bo'lmaydi</span>
         </div>
+        <div class="img">
+            <h3>URl manzilni kiriting</h3>
+            <input style="padding: 10px; width: 100%;" placeholder="Rasmning url manzillini kiriting..." type="text">
+            <span class="error__img">Rasmning url manzili kiritilishi shart !!!<span>
+        </div>
+        <p id="btn">Saqlash</p>
+    </form>
 
+    <div class="block">
     </div>
 
+    <button class="button">Yuborish</button>
 
+    <div class="wraper">
+        <svg class="close" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/></svg>
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti itaque libero eaque commodi maxime voluptates rem cupiditate cum mollitia? Aspernatur?</p>
+        <div class="reservise">
+            <button class="close1">close</button>
+            <button class="send">send</button>
+        </div>
+    </div>
     <script src="./mai/main.js"></script>
 </body>
 </html>
