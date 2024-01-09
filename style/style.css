@@ -6,6 +6,8 @@
 body {
     position: relative;
     font-family: sans-serif;
+    background-image: url(/img/images.jpg);
+    background-size: cover;
 }
 .card__back{
     position: relative;
